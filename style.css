@@ -6,8 +6,31 @@
 
 :root{
     --header: #2C3E50;
+    --primary:#1ABC9C;
+    --secondary:#FFFFFF;
+    --footer:#3A546D;
 
 }
-header{
+.header{
     background-color: var(--header);
+}
+.primary{
+    background-color: var(--primary);
+}
+.secondary{
+    background-color:var(--secondary);
+}
+.footer {
+    background-color: var(--footer);
+}
+
+
+.card_portfolio{
+    background-color: #2c6cd1;
+    height: 50px;
+    width: 100%;
+}
+
+.info{
+    text-align: left;
 }
