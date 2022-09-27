@@ -24,14 +24,36 @@
 .footer {
     background-color: var(--footer);
 }
-
-
-.card_portfolio{
+/* .card_portfolio{
     background-color: #2c6cd1;
     height: 50px;
     width: 100%;
+} */
+/* .card_portfolio>.img_portfolio{
+     width: 100%; 
+} */
+.card_portfolio{
+    width: 100%;
+    margin: 1rem 0 ;
 }
 
+
+.dark_bar{
+    height: 2px;
+    width: 70px;
+background-color: var(--header);
+} 
+.dark_star{
+    color: var(--header);
+}
+.light_bar{
+    height: 2px;
+    width: 70px;
+background-color: white;
+}
+.light_star{
+    color: white;
+}
 .info{
     text-align: left;
 }
