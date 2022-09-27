@@ -11,8 +11,9 @@
     --footer:#3A546D;
 
 }
-.header{
+#site_header{
     background-color: var(--header);
+    color: white;
 }
 .primary{
     background-color: var(--primary);
